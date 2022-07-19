@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color: black;
 }
 
 .container{
@@ -19,7 +19,9 @@ body{
     max-height: 650px;
     width: 90%;
     padding: 20px;
-    background-color: lightcoral;
+    background-color: skyblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px grey;
 }
 
 .display-result{
@@ -29,6 +31,8 @@ body{
     height: 100px;
     display: flex;
     justify-content: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .input{
@@ -45,6 +49,7 @@ body{
     width: 50px;
     height: 50px;
     flex: 1;
+    border-radius: 5px;
 }
 
 .flex-row{
@@ -57,6 +62,7 @@ body{
 }
 
 .enter{
-    background-color: lavender;
+    background-color: red;
+    color: white;
     
 }
