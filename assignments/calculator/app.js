@@ -1,11 +1,12 @@
 let num1='';
-let num2='';
+let nums2='';
 let operator=''
 let total=''
 
 $(document).ready(function(){
     $('button').on('click', function(e){
         let btn = e.target.innerHTML;
+        console.log(btn)
         if(btn>='0'&& btn<='9')
         {
             handleNumber(btn);
@@ -25,8 +26,9 @@ function handleNumber(num)
         num1=num;
     }
     else{
-        num2=num;
+        nums2=num;
     }
+    displayButton(num)
 }
 
 function handleOperator(oper){
@@ -36,8 +38,10 @@ function handleOperator(oper){
     else
     {
         handleTotal();
+        operator=oper;
     }
 }
+
 
 function handleTotal(){
     switch(operator){
