@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: skyblue;
+	
+}
+
+
+.con{
+	margin: 5% auto;
+	width: 75%;
+	padding: 5%;
+	background: grey;
+	border-radius: 5px;
+	
+}
+
+.box{
+	width: 80%;
+	padding: 5% 0;
+	display: flex;
+}
+
+.box input{
+	
+	width: 75%;
+	height: 50px;
+	border: 0;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px 2px darkgrey;
+	font-size: 150%;
+
+}
+
+.box button{
+	border: 0;
+	box-shadow: 3px 3px 2px 2px darkgrey;
+	width: 15%;
+	margin-left: 2%;
+	border-radius: 5px;
+	font-size: 30px;
+	background-color: lightgray;
+}
+
+#ad{
+	
+	width: 80%;
+	padding: 5% 0;
+	
+}
+
+.ans{
+	width: 70%;
+	padding: 2% 0;
+	background: lightcoral;
+	color: white;
+	margin: 5px auto;
+	border-radius: 4px;
+}
+
+#ad h1{
+	padding-left: 10px;
+	display: inline;
+}
+
+#ad button{
+	padding: 2% 7%;
+	font-weight: bold;
+	background: darkcyan;
+	color: white;
+	float: right;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px 2px black;
+	border: 0;
+	margin-right: 10px;
+}

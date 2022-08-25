@@ -1,0 +1,61 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+
+        body{
+            height:100vh;
+            background: #dfcc21;
+            background-color: crimson;
+        }
+
+        h1{
+            text-align: center;
+            background: black;
+            color: white;
+            padding: 20px;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+        }
+        .one,.three{
+            margin-top: 3vh;
+            margin-left: 20px;
+            min-width: 360px;
+            border: 0;
+        
+
+        }
+        .two{
+            margin-top: 3vh;
+            margin-left: 50px;
+            width: 50%;
+            min-width: 200px;
+            margin: 20px auto;
+        
+
+        }
+        .two button{
+            width: 150px;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            margin: 5px;
+        }
+
+        textarea{
+            border: 3px solid black;
+            border-radius: 10px;
+            background-color: blanchedalmond;
+        }
+
+        .copybtn,.pastebtn{
+            border: 2px solid black;
+            margin-right: 10%;
+            background-color: #dfcc21;
+            cursor: pointer;
+            width: 10%;
+        }
